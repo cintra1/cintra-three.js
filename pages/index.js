@@ -144,7 +144,7 @@ const Home = () => {
             href="/posts"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
+            colorScheme="blue"
           >
             Check out
           </Button>
