@@ -18,7 +18,7 @@ const Posts = () => (
           <GridItem
             title="Harunai Surface - OpenSea"
             thumbnail={thumbPortfolio}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
+            href="https://opensea.io/collection/harunai-surface"
           />
            <GridItem
             title="Harunai Surface - MidJourney"
