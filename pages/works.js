@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbRadix from '../public/images/works/only-radix.png'
-import thumbBlog from '../public/images/works/blog.png'
-import thumbCBlog from '../public/images/works/cblog.png'
+import thumbRadix from '../public/images/works/radix-eyecatch1.png'
+import thumbBlog from '../public/images/works/blog-eyecatch.png'
+import thumbCBlog from '../public/images/works/cblog-eyecatch1.png'
 
 const Works = () => {
   return (
