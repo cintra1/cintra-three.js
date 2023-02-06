@@ -86,6 +86,27 @@ const Home = () => {
           </Box>
         </Section>
 
+
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Bio
+          </Heading>
+          <BioSection>
+            <BioYear>2005</BioYear>
+            Born in São Paulo, Brasil.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Completed High School as a systems development technician at the
+            State Technical School of São Paulo (ETESP).
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Joined the course of information systems at the University of São
+            Paulo (USP).
+          </BioSection>
+        </Section>
+
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             NFTs
@@ -105,7 +126,7 @@ const Home = () => {
             href="/posts"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="teal"
+            colorScheme="blue"
           >
             Check out
           </Button>
@@ -168,17 +189,7 @@ const Home = () => {
           </List>
         </Section>
 
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/works"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="blue"
-          >
-            Principal works
-          </Button>
-        </Box>
+     
       </Container>
     </Layout>
   )
