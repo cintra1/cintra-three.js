@@ -120,7 +120,7 @@ const Home = () => {
             created with the aid of artificial intelligence (MidJourney),
             where she was exposed to several ideas of mine that I wanted to
             reproduce and create new characters, after teaching her the way I
-            wanted, she started to be able to create NFT models and I I edited
+            wanted, she started to be able to create NFT models and I edited
             them later.
           </Paragraph>
           </Section>
