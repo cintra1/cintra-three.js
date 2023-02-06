@@ -5,6 +5,7 @@ import {
   Heading,
   Box,
   Button,
+  SimpleGrid,
   List,
   ListItem,
   chakra
@@ -14,6 +15,9 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { GridItem } from '../components/grid-item'
+import thumbYouTube from '../public/images/works/harunai-eyecatch.png'
+import thumbInkdrop from '../public/images/works/harunai-eyecatch3.png'
 import { BioSection, BioYear } from '../components/bio'
 import Image from 'next/image'
 
@@ -107,18 +111,32 @@ const Home = () => {
           </BioSection>
         </Section>
 
-        <Section delay={0.2}>
+      <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
             NFTs
           </Heading>
           <Paragraph>
             Created a unique collection of NFTs on OpenSea. The NFTs were
             created with the aid of artificial intelligence (MidJourney),
-            where it was exposed to several ideas of mine that I wanted to
+            where she was exposed to several ideas of mine that I wanted to
             reproduce and create new characters, after teaching her the way I
-            wanted, it started to be able to create NFT models and I edited
+            wanted, she started to be able to create NFT models and I I edited
             them later.
           </Paragraph>
+          </Section>
+          <Section>
+          <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            href="/posts"
+            thumbnail={thumbYouTube}
+          >
+          </GridItem>
+          <GridItem
+            href="/posts"
+            thumbnail={thumbInkdrop}
+          >
+          </GridItem>
+        </SimpleGrid>
           
         <Box align="center" my={4}>
           <Button
@@ -126,12 +144,13 @@ const Home = () => {
             href="/posts"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
-            colorScheme="blue"
+            colorScheme="teal"
           >
             Check out
           </Button>
         </Box>
         </Section>
+
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
