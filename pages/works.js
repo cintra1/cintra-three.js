@@ -97,7 +97,7 @@ const Works = () => {
           <Section>
             <WorkGridItem
               id="calc"
-              title="scientific calculator"
+              title="Scientific Calculator"
               thumbnail={thumbCalc}
             >
               My first project with android Studio was this scientific calculator.
