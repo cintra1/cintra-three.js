@@ -9,6 +9,7 @@ import thumbCBlog from '../public/images/works/cblog-eyecatch1.png'
 import thumbRapport from '../public/images/works/rapport-eyecatch.png'
 import thumbAgro from '../public/images/works/agroexpress-eyecatch.png'
 import thumbKort from '../public/images/works/kort-eyecatch.png'
+import thumbCalc from '../public/images/works/calculadora.png'
 
 const Works = () => {
   return (
@@ -91,6 +92,18 @@ const Works = () => {
               An organic product sales app with fast delivery.
             </WorkGridItem>
           </Section>
+
+          
+          <Section>
+            <WorkGridItem
+              id="calc"
+              title="scientific calculator"
+              thumbnail={thumbCalc}
+            >
+              My first project with android Studio was this scientific calculator.
+            </WorkGridItem>
+          </Section>
+
 
         </SimpleGrid>
       </Container>
