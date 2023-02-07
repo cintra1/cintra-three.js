@@ -6,6 +6,9 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbRadix from '../public/images/works/radix-eyecatch1.png'
 import thumbBlog from '../public/images/works/blog-eyecatch.png'
 import thumbCBlog from '../public/images/works/cblog-eyecatch1.png'
+import thumbRapport from '../public/images/works/rapport-eyecatch.png'
+import thumbAgro from '../public/images/works/agroexpress-eyecatch.png'
+import thumbKort from '../public/images/works/kort-eyecatch.png'
 
 const Works = () => {
   return (
@@ -46,6 +49,46 @@ const Works = () => {
             >
               A blog to find out about the company&apos;s services and the main news
               about digital marketing.
+            </WorkGridItem>
+          </Section>
+
+        </SimpleGrid>
+      </Container>
+
+      <Container>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          Old works
+        </Heading>
+
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="rapport"
+              title="Rapport Comunicação"
+              thumbnail={thumbRapport}
+            >
+              An application that manages all your company&apos;s customers, orders and billing.
+            </WorkGridItem>
+          </Section>
+
+           <Section>
+            <WorkGridItem
+              id="kort"
+              title="Kort"
+              thumbnail={thumbKort}
+            >
+              An application that maps and indicates stores and restaurants around you.
+            </WorkGridItem>
+          </Section>
+
+            <Section>
+            <WorkGridItem
+              id="agro"
+              title="AgroExpress"
+              thumbnail={thumbAgro}
+            >
+              An organic product sales app with fast delivery.
             </WorkGridItem>
           </Section>
 
