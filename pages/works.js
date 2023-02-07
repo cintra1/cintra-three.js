@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbRadix from '../public/images/works/radix-eyecatch1.png'
 import thumbBlog from '../public/images/works/blog-eyecatch.png'
+import thumbGrok from '../public/images/works/grok-eyecatch.png'
 import thumbCBlog from '../public/images/works/cblog-eyecatch1.png'
 import thumbRapport from '../public/images/works/rapport-eyecatch.png'
 import thumbAgro from '../public/images/works/agroexpress-eyecatch.png'
@@ -30,6 +31,11 @@ const Works = () => {
             <WorkGridItem id="blog" title="My Blog" thumbnail={thumbBlog}>
               Place where I write the day-to-day coding, showing experiences I
               had during the programming process.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="grok" title="Grok" thumbnail={thumbGrok}>
+            With our new application, exchange messages quickly and in a simplified way.
             </WorkGridItem>
           </Section>
         </SimpleGrid>

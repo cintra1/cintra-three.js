@@ -9,28 +9,29 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="AgroExpress">
+  <Layout title="Grok">
     <Container>
       <Title>
-        AgroExpress <Badge>2022-</Badge>
+        Grok <Badge>2021-</Badge>
       </Title>
       <P>
-      An organic product sales app with fast delivery.
+      With our new application, exchange messages quickly and in a simplified way, easy to use functions, with a clean environment.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Desktop</span>
+          <span>Desktop/Mobile</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>ASP.NET</span>
+          <span>PHP, Async(JavaScript), HTML, CSS</span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/agro-express.png" alt="Agro" />
-      <WorkImage src="/images/works/agro-prod.png" alt="Agro" />
-      <WorkImage src="/images/works/agro-metodos.png" alt="Agro" />
+      <WorkImage src="/images/works/grok-index.png" alt="Grok" />
+      <WorkImage src="/images/works/grok-log.png" alt="Grok" />
+      <WorkImage src="/images/works/grok-chat.png" alt="Grok" />
+
     </Container>
   </Layout>
 )
