@@ -11,6 +11,7 @@ import thumbRapport from '../public/images/works/rapport-eyecatch.png'
 import thumbAgro from '../public/images/works/agroexpress-eyecatch.png'
 import thumbKort from '../public/images/works/kort-eyecatch.png'
 import thumbCalc from '../public/images/works/calculadora.png'
+import thumbAirt from '../public/images/works/airt-eyecatch.png'
 
 const Works = () => {
   return (
@@ -22,15 +23,20 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="radix" title="Radix" thumbnail={thumbRadix}>
-              Application for delivery of organic products, with direct customer
-              contact with the producer.
+            <WorkGridItem id="airt" title="Airt" thumbnail={thumbAirt}>
+            A visual experience powered by Art, CSS and JavaScript effects.
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem id="blog" title="My Blog" thumbnail={thumbBlog}>
               Place where I write the day-to-day coding, showing experiences I
               had during the programming process.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="radix" title="Radix" thumbnail={thumbRadix}>
+              Application for delivery of organic products, with direct customer
+              contact with the producer.
             </WorkGridItem>
           </Section>
           <Section>
