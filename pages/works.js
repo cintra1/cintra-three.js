@@ -24,7 +24,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="airt" title="Airt" thumbnail={thumbAirt}>
-            A visual experience powered by Art, CSS and JavaScript effects.
+            A visual experience powered by Art, CSS, JavaScript effects a little artificial intelligence.
             </WorkGridItem>
           </Section>
           <Section>
