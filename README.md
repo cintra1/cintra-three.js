@@ -1,4 +1,5 @@
 # Cintra's Homepage
+![Capturar](https://github.com/cintra1/cintra-three.js/assets/101955322/a178b308-36fe-47e5-a5ec-0d94a3be2587)
 
 [https://cintra-portfolio.vercel.app/](https://cintra-portfolio.vercel.app/)
 
