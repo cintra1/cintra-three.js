@@ -1,6 +1,9 @@
 # Cintra's Homepage
 ![Capturar](https://github.com/cintra1/cintra-three.js/assets/101955322/a178b308-36fe-47e5-a5ec-0d94a3be2587)
 
+## Sobre
+Esse foi um site feito utilizando React.js e bibliotecas de JavaScript: Chakra UI, Three.js, Framer Motion e Next.js. A criação do site foi totalmente baseada em um vídeo de Takuya Matsuyama, do canal "devaslife", que ensinava passo a passo a criação desse site.
+
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
