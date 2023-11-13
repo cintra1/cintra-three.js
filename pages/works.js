@@ -18,13 +18,14 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Works
+          Portfolio
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
-            <WorkGridItem id="airt" title="Airt" thumbnail={thumbAirt}>
-            A visual experience powered by Art, CSS, JavaScript effects a little artificial intelligence.
+           <Section>
+            <WorkGridItem id="radix" title="Radix" thumbnail={thumbRadix}>
+              Application for delivery of organic products, with direct customer
+              contact with the producer.
             </WorkGridItem>
           </Section>
           <Section>
@@ -34,14 +35,8 @@ const Works = () => {
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="radix" title="Radix" thumbnail={thumbRadix}>
-              Application for delivery of organic products, with direct customer
-              contact with the producer.
-            </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="grok" title="Grok" thumbnail={thumbGrok}>
-            With our new application, exchange messages quickly and in a simplified way.
+            <WorkGridItem id="airt" title="Airt" thumbnail={thumbAirt}>
+            A visual experience powered by Art, CSS, JavaScript effects a little artificial intelligence.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
