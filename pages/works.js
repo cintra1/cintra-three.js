@@ -12,9 +12,9 @@ import thumbAgro from '../public/images/works/agroexpress-eyecatch.png'
 import thumbKort from '../public/images/works/kort-eyecatch.png'
 import thumbCalc from '../public/images/works/calculadora.png'
 import thumbAirt from '../public/images/works/airt-eyecatch.png'
-import thumbDentist from '../public/images/works/banner-behance.png'
-import thumbApatel from '../public/images/works/thumbnail-apatel-3.png'
-import thumbFly from '../public/images/works/banner-flyfrare.png'
+import thumbDentist from '../public/images/works/bressan-eyecatch.png'
+import thumbApatel from '../public/images/works/apatel-eyecatch-2.png'
+import thumbFly from '../public/images/works/flyfrare-eyecatch.png'
 
 const Works = () => {
   return (
