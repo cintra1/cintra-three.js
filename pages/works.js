@@ -26,12 +26,12 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="dentist" title="Bressan Odontologia" thumbnail={thumbDentist}>
+            <WorkGridItem id="bressab" title="Bressan Odontologia" thumbnail={thumbDentist}>
               Landing Page completa para um consultório odontológico, totalmente responsivo e com formulário de contato.
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="fly" title="Flyfrare" thumbnail={thumbFly}>
+            <WorkGridItem id="flyfrare" title="Flyfrare" thumbnail={thumbFly}>
               Website para venda de aeronaves (Helicópteros e Aviões), e de serviços especializados.
             </WorkGridItem>
           </Section>
@@ -71,7 +71,7 @@ const Works = () => {
               title="Blog da Cintra Comunicação"
               thumbnail={thumbCBlog}
             >
-              Um blogu para conhecer os serviços da empresa e as principais notícias sobre marketing digital.
+              Um blog para conhecer os serviços da empresa e as principais notícias sobre marketing digital.
             </WorkGridItem>
           </Section>
 
