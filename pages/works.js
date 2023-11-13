@@ -27,7 +27,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="bressab" title="Bressan Odontologia" thumbnail={thumbDentist}>
-              Landing Page completa para um consultório odontológico, totalmente responsivo e com formulário de contato.
+              Landing Page completa para um consultório odontológico.
             </WorkGridItem>
           </Section>
           <Section>
