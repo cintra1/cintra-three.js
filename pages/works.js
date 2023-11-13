@@ -12,6 +12,9 @@ import thumbAgro from '../public/images/works/agroexpress-eyecatch.png'
 import thumbKort from '../public/images/works/kort-eyecatch.png'
 import thumbCalc from '../public/images/works/calculadora.png'
 import thumbAirt from '../public/images/works/airt-eyecatch.png'
+import thumbDentist from '../public/images/works/banner-behance.png'
+import thumbApatel from '../public/images/works/thumbnail-apatel-3.png'
+import thumbFly from '../public/images/works/banner-flyfrare.png'
 
 const Works = () => {
   return (
@@ -22,6 +25,21 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem id="dentist" title="Bressan Odontologia" thumbnail={thumbDentist}>
+              Landing Page completa para um consultório odontológico, totalmente responsivo e com formulário de contato.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="fly" title="Flyfrare" thumbnail={thumbFly}>
+              Website para venda de aeronaves (Helicópteros e Aviões), e de serviços especializados.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="apatel" title="Apatel" thumbnail={thumbApatel}>
+              E-Commerce para uma empresa de venda de produtos de segurança, com sistema de orçamento.
+            </WorkGridItem>
+          </Section>
            <Section>
             <WorkGridItem id="radix" title="Radix" thumbnail={thumbRadix}>
               Aplicação de delivery para produtos orgânicos, com contato direto entre cliente e produtor.
