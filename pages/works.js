@@ -24,19 +24,17 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
            <Section>
             <WorkGridItem id="radix" title="Radix" thumbnail={thumbRadix}>
-              Application for delivery of organic products, with direct customer
-              contact with the producer.
+              Aplicação de delivery para produtos orgânicos, com contato direto entre cliente e produtor.
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem id="blog" title="My Blog" thumbnail={thumbBlog}>
-              Place where I write the day-to-day coding, showing experiences I
-              had during the programming process.
+               Lugar onde eu mostro meus códigos, mostrando as experiências tive durante o processo de programação.
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem id="airt" title="Airt" thumbnail={thumbAirt}>
-            A visual experience powered by Art, CSS, JavaScript effects a little artificial intelligence.
+            Uma experiência visual utilizando Art, CSS, JavaScript effects e um pouco de I.A.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -45,18 +43,17 @@ const Works = () => {
       <Container>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Colaborações
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
               id="cblog"
-              title="Cintra Comunicação&apos;s Blog"
+              title="Blog da Cintra Comunicação"
               thumbnail={thumbCBlog}
             >
-              A blog to find out about the company&apos;s services and the main news
-              about digital marketing.
+              Um blogu para conhecer os serviços da empresa e as principais notícias sobre marketing digital.
             </WorkGridItem>
           </Section>
 
@@ -66,19 +63,10 @@ const Works = () => {
       <Container>
         <Divider my={6} />
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          Trabalhos Antigos
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
-            <WorkGridItem
-              id="rapport"
-              title="Rapport Comunicação"
-              thumbnail={thumbRapport}
-            >
-              An application that manages all your company&apos;s customers, orders and billing.
-            </WorkGridItem>
-          </Section>
 
            <Section>
             <WorkGridItem
@@ -86,7 +74,7 @@ const Works = () => {
               title="Kort"
               thumbnail={thumbKort}
             >
-              An application that maps and indicates stores and restaurants around you.
+              Uma aplicação que mapeia lojas e restaurantes ao seu redor.
             </WorkGridItem>
           </Section>
 
@@ -96,20 +84,10 @@ const Works = () => {
               title="AgroExpress"
               thumbnail={thumbAgro}
             >
-              An organic product sales app with fast delivery.
+              Um aplicativo de vendas de produtos saudáveis.
             </WorkGridItem>
           </Section>
 
-          
-          <Section>
-            <WorkGridItem
-              id="calc"
-              title="Scientific Calculator"
-              thumbnail={thumbCalc}
-            >
-              My first project with android Studio was this scientific calculator.
-            </WorkGridItem>
-          </Section>
 
 
         </SimpleGrid>
