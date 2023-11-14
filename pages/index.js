@@ -66,7 +66,7 @@ const Home = () => {
             Sobre mim
           </Heading>
           <Paragraph>
-            Olá! Está a procura de um serviço de criação de sites? Sou Desenvolvedor Web e Web Designer, com mais de 4 anos de experiência com programação e design. Crio sites profissionais, totalmente responsivos e utilizando UI/UX Design. <br>Está interessado no meu trabalho? De uma olhada no meu portfólio.
+            Olá! Está a procura de um serviço de criação de sites? Sou Desenvolvedor Web e Web Designer, com mais de 4 anos de experiência com programação e design. Crio sites profissionais, totalmente responsivos e utilizando UI/UX Design. Está interessado no meu trabalho? De uma olhada no meu portfólio.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
