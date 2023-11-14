@@ -14,7 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoBehance, IoLogoLinkedin } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
 import thumbYouTube from '../public/images/works/harunai-eyecatch12.png'
 import thumbInkdrop from '../public/images/works/harunai-eyecatch22.png'
@@ -157,7 +157,7 @@ const Home = () => {
                 <Button
                   variant="ghost"
                   colorScheme="blue"
-                  leftIcon={<IoLogoTwitter />}
+                  leftIcon={<IoLogoBehance />}
                 >
                   @cintrinhaa
                 </Button>
@@ -165,6 +165,17 @@ const Home = () => {
             </ListItem>
         
             <ListItem>
+              <Link href="https://instagram.com/mateus_cintr" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="blue"
+                  leftIcon={<IoLogoLinkedin />}
+                >
+                  @mateus_cintr
+                </Button>
+              </Link>
+            </ListItem>
+                     <ListItem>
               <Link href="https://instagram.com/mateus_cintr" target="_blank">
                 <Button
                   variant="ghost"
