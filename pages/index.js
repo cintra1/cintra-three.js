@@ -63,7 +63,7 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            Sobre mim
           </Heading>
           <Paragraph>
             Sou um profissional com mais de 4 anos de experiência em Desenvolvimento Web e Web Design. Tenho técnico em Desenvolvimento de Sistemas pela Escola Técnica Estadual de São Paulo e atualmente estou cursando Sistemas de Informação na USP.
