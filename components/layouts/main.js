@@ -17,7 +17,7 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Cintra's homepage" />
         <meta name="author" content="Cintra" />
-        <meta name="author" content="craftzdog" />
+        <meta name="author" content="Cintra" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Cintra" />
