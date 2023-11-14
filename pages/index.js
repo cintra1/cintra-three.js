@@ -85,16 +85,15 @@ const Home = () => {
           </Heading>
           <BioSection>
             <BioYear>2005</BioYear>
-            Born in São Paulo, Brasil.
+            Nascido em São Paulo, Brasil.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed High School as a systems development technician at the
-            State Technical School of São Paulo (ETESP).
+            Concluiu o Ensino Médio como Técnico em Desenvolvimento de Sistemas na Escola Técnica Estadual de São Paulo (ETESP).
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Joined the course of information systems at the University of São
+            Ingressou no curso de Sistemas de Informação na Universidade de São Paulo
             Paulo (USP).
           </BioSection>
         </Section>
