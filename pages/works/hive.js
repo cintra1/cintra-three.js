@@ -39,6 +39,7 @@ const Work = () => (
       <WorkImage src="/images/works/hive-index.png" alt="Hive" />
       <WorkImage src="/images/works/hive-2.png" alt="Hive" />
       <WorkImage src="/images/works/hive-3.png" alt="Hive" />
+      <WorkImage src="/images/works/hive-4.png" alt="Hive" />
       <WorkImage src="/images/works/hive-end.png" alt="Hive" />
     </Container>
   </Layout>
