@@ -23,7 +23,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://dev-hivecoding.pantheonsite.io/">
-          https:dev-hivecoding.pantheonsite.io/ <ExternalLinkIcon mx="2px" />
+          https://dev-hivecoding.pantheonsite.io/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
