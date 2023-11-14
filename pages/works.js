@@ -15,6 +15,9 @@ import thumbAirt from '../public/images/works/airt-eyecatch.png'
 import thumbDentist from '../public/images/works/bressan-eyecatch.png'
 import thumbApatel from '../public/images/works/apatel-eyecatch-2.png'
 import thumbFly from '../public/images/works/flyfrare-eyecatch.png'
+import thumbCG from '../public/images/works/cintrag-eyecatch-2.png'
+import thumbHive from '../public/images/works/hive-eyecatch.png'
+import thumbMitre from '../public/images/works/mitre-eyecatch.png'
 
 const Works = () => {
   return (
@@ -26,7 +29,22 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="bressab" title="Bressan Odontologia" thumbnail={thumbDentist}>
+            <WorkGridItem id="hive" title="Hive Coding" thumbnail={thumbHive}>
+              Landing Page para uma agência de vendas de websites.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="mitre" title="Essência Brasileira Mitre" thumbnail={thumbMitre}>
+              Landing Page para o setor imobiliário.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="cintra+gear" title="Cintra Sales + Gear SEO" thumbnail={thumbCG}>
+              Landing Page para divulgação de serviços de SEO.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem id="bressan" title="Bressan Odontologia" thumbnail={thumbDentist}>
               Landing Page completa para um consultório odontológico.
             </WorkGridItem>
           </Section>
