@@ -18,17 +18,13 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Cintra's homepage" />
         <meta name="author" content="Cintra" />
         <meta name="author" content="Cintra" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="favicon.ico" href="favicon.ico" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Cintra" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
         <meta property="og:site_name" content="Cintra" />
         <meta name="og:title" content="Cintra" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="favicon.ico" />
         <title>Cintra - Homepage</title>
       </Head>
 
