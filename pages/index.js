@@ -108,19 +108,6 @@ const Home = () => {
           </Paragraph>
           </Section>
           <Section>
-          <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="/posts"
-            thumbnail={thumbYouTube}
-          >
-          </GridItem>
-          <GridItem
-            href="/posts"
-            thumbnail={thumbInkdrop}
-          >
-          </GridItem>
-        </SimpleGrid>
-          
         <Box align="center" my={4}>
           <Button
             as={NextLink}
