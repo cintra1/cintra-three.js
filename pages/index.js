@@ -66,19 +66,7 @@ const Home = () => {
             Work
           </Heading>
           <Paragraph>
-            Cintra is a full-stack developer born in São Paulo with a passion
-            cultivated since childhood about technology and the internet. His
-            first computer was a Linux that served as a starting point for all
-            the initial curiosity about technology and helped in the development
-            of skills with digital equipment. When not online, he enjoys playing
-            esports and skating, as well as spending time with family and
-            friends. In the last year of his technician he developed a startup
-            called 
-             {' '}
-            <NextLink href="/works/radix">
-              <Link>Radix</Link>
-            </NextLink>
-            .
+            Sou um profissional com mais de 4 anos de experiência em Desenvolvimento Web e Web Design. Tenho técnico em Desenvolvimento de Sistemas pela Escola Técnica Estadual de São Paulo e atualmente estou cursando Sistemas de Informação na USP.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
