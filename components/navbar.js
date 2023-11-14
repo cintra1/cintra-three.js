@@ -79,8 +79,8 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Portfolio
           </LinkItem>
-           <LinkItem href="/posts" path={path}>
-            NFTs
+           <LinkItem href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20" path={path}>
+            Contato
           </LinkItem> 
          
           <LinkItem
