@@ -126,11 +126,9 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
-          <BioSection>
             <Paragraph>
               Música, Ler, Andar de Skate, Esportes (Futebol, Voleibol, Ping Pong, Basquete).
             </Paragraph>
-          </BioSection>
         </Section>
 
         
