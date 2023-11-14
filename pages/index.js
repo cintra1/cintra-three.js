@@ -34,7 +34,7 @@ const Home = () => {
             <Heading as="h2" variant="page-title">
               Mateus Cintra
             </Heading>
-            <p> Cintra Comunicação ( Developer / Designer ) </p>
+            <p> ( Web Developer / Web Designer ) </p>
           </Box>
           <Box
             flexShrink={0}
