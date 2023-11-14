@@ -129,7 +129,7 @@ const Home = () => {
           <BioSection>
             <Paragraph>
               {' '}
-              Música, Ler, Andar de Skate, Esportes(Futebol, Voleibol,
+              Música, Ler, Andar de Skate, Esportes (Futebol, Voleibol,
               Ping Pong, Basquete).
             </Paragraph>
           </BioSection>
@@ -141,17 +141,7 @@ const Home = () => {
             On the web
           </Heading>
           <List>
-            <ListItem>
-              <Link href="https://github.com/cintra1" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="blue"
-                  leftIcon={<IoLogoGithub />}
-                >
-                  @cintra1
-                </Button>
-              </Link>
-            </ListItem>
+          
             <ListItem>
               <Link href="https://www.behance.net/mateusfcintra" target="_blank">
                 <Button
@@ -172,6 +162,17 @@ const Home = () => {
                   leftIcon={<IoLogoLinkedin />}
                 >
                   @mateus-cintra
+                </Button>
+              </Link>
+            </ListItem>
+                      <ListItem>
+              <Link href="https://github.com/cintra1" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="blue"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  @cintra1
                 </Button>
               </Link>
             </ListItem>
