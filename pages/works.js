@@ -17,7 +17,7 @@ import thumbApatel from '../public/images/works/apatel-eyecatch-2.png'
 import thumbFly from '../public/images/works/flyfrare-eyecatch.png'
 import thumbCG from '../public/images/works/cintrag-eyecatch-2.png'
 import thumbHive from '../public/images/works/hive-eyecatch.png'
-import thumbMitre from '../public/images/works/mitre-eyecatch.png'
+import thumbMitre from '../public/images/works/banner-mitre-blog-2.png'
 
 const Works = () => {
   return (
