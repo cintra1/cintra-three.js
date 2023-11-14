@@ -39,8 +39,8 @@ const Work = () => (
       <WorkImage src="/images/works/bressan-index.png" alt="Bressan Odontologia" />
       <WorkImage src="/images/works/bressan-2.png" alt="Bressan Odontologia" />
       <WorkImage src="/images/works/bressan-3.png" alt="Bressan Odontologia" />
+      <WorkImage src="/images/works/bressan-5.png" alt="Bressan Odontologia" />
       <WorkImage src="/images/works/bressan-4.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-end.png" alt="Bressan Odontologia" />
     </Container>
   </Layout>
 )
