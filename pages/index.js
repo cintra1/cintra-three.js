@@ -66,7 +66,7 @@ const Home = () => {
             Sobre mim
           </Heading>
           <Paragraph>
-            Sou um profissional com mais de 4 anos de experiência em Desenvolvimento Web e Web Design. Tenho técnico em Desenvolvimento de Sistemas pela Escola Técnica Estadual de São Paulo e atualmente estou cursando Sistemas de Informação na USP.
+            Olá! Está a procura de um serviço de criação de sites? Sou Desenvolvedor Web e Web Designer, com mais de 4 anos de experiência com programação e design. Crio sites profissionais, totalmente responsivos e utilizando UI/UX Design. <br>Está interessado no meu trabalho? De uma olhada no meu portfólio.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
