@@ -124,12 +124,12 @@ const Home = () => {
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/posts"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="blue"
           >
-            Check out
+            Whatsapp
           </Button>
         </Box>
         </Section>
@@ -142,8 +142,8 @@ const Home = () => {
           <BioSection>
             <Paragraph>
               {' '}
-              Music, Coding, Drums, Skateboarding, Sports (Soccer, Volleyball,
-              Ping Pong), I.A, Crypto, NFTs{' '}
+              Música, Programar, Skateboarding, Esportes (Futebol, Voleibol,
+              Ping Pong, Basquete), I.A, Crypto.
             </Paragraph>
           </BioSection>
         </Section>
@@ -170,7 +170,7 @@ const Home = () => {
                 <Button
                   variant="ghost"
                   colorScheme="blue"
-                  leftIcon={<IoLogoTwitter />}
+                  leftIcon={<IoLogoBehance />}
                 >
                   @cintrinhaa
                 </Button>
