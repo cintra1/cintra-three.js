@@ -153,25 +153,25 @@ const Home = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/cintrinhaa" target="_blank">
+              <Link href="https://www.behance.net/mateusfcintra" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="blue"
                   leftIcon={<IoLogoBehance />}
                 >
-                  @cintrinhaa
+                  @mateusfcintra
                 </Button>
               </Link>
             </ListItem>
         
             <ListItem>
-              <Link href="https://instagram.com/mateus_cintr" target="_blank">
+              <Link href="https://www.linkedin.com/in/mateus-cintra/" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="blue"
                   leftIcon={<IoLogoLinkedin />}
                 >
-                  @mateus_cintr
+                  @mateus-cintra
                 </Button>
               </Link>
             </ListItem>
