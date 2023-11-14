@@ -157,7 +157,7 @@ const Home = () => {
                 <Button
                   variant="ghost"
                   colorScheme="blue"
-                  leftIcon={<IoLogoBehance />}
+                  leftIcon={<IoLogoTwitter />}
                 >
                   @cintrinhaa
                 </Button>
