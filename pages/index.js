@@ -128,9 +128,7 @@ const Home = () => {
           </Heading>
           <BioSection>
             <Paragraph>
-              {' '}
-              Música, Ler, Andar de Skate, Esportes (Futebol, Voleibol,
-              Ping Pong, Basquete).
+              Música, Ler, Andar de Skate, Esportes (Futebol, Voleibol, Ping Pong, Basquete).
             </Paragraph>
           </BioSection>
         </Section>
