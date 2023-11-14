@@ -66,7 +66,7 @@ const Home = () => {
             Sobre mim
           </Heading>
           <Paragraph>
-            Olá! Está a procura de um serviço de criação de sites? Sou Desenvolvedor Web e Web Designer, com mais de 4 anos de experiência com programação e design. Crio sites profissionais, totalmente responsivos e utilizando UI/UX Design. Está interessado no meu trabalho? De uma olhada no meu portfólio.
+            Olá! Está a procura de um serviço de criação de sites ou design? Sou Desenvolvedor Web e Web Designer, com mais de 4 anos de experiência com programação e design. Crio sites profissionais, totalmente responsivos e utilizando UI/UX Design. Está interessado no meu trabalho? De uma olhada no meu portfólio.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -100,15 +100,11 @@ const Home = () => {
 
       <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            NFTs
+            Contato
           </Heading>
           <Paragraph>
-            Created a unique collection of NFTs on OpenSea. The NFTs were
-            created with the aid of artificial intelligence (MidJourney),
-            where she was exposed to several ideas of mine that I wanted to
-            reproduce and create new characters, after teaching her the way I
-            wanted, she started to be able to create NFT models and I edited
-            them later.
+            Quer conversar um pouco sobre seu projeto e esclarecer suas dúvidas sobre meus serviços? Vamos marcar uma chamada ou
+            conversar por mensagem se você preferir para que possamos concluir com sucesso a criação de seu site ou design.
           </Paragraph>
           </Section>
           <Section>
