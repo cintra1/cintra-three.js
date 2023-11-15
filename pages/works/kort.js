@@ -15,7 +15,7 @@ const Work = () => (
         Kort <Badge>2022-</Badge>
       </Title>
       <P>
-      An app that maps and indicates stores and restaurants around you, based on reviews provided by Google.
+      Uma aplicação que mapeia lojas e restaurantes ao seu redor.
       </P>
       <List ml={4} my={4}>
         <ListItem>
