@@ -83,7 +83,7 @@ const Home = () => {
             Serviços
           </Heading>
           <Paragraph>
-            Está precisando de um site para sua empresa? Ou de Artes para engajar as Redes Sociais da sua empresa? Veja nossa página de serviços
+            Está precisando de um site para sua empresa? Artes para engajar as Redes Sociais da sua empresa? Veja nossa página de serviços
             e escolha o que melhor te atende, com certeza seu projeto será concluído com sucesso.
           </Paragraph>
           </Section>
