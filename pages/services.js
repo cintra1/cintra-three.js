@@ -6,6 +6,8 @@ import thumbPortfolio from '../public/images/works/banner-opensea.png'
 import thumbPortfolio1 from '../public/images/works/banner-instagram.png'
 import thumbPortfolio2 from '../public/images/works/banner-twitter.png'
 import thumbPortfolio3 from '../public/images/works/banner-mid.png'
+import thumbPortfolio4 from '../public/images/works/servicos-1.png'
+import thumbPortfolio5 from '../public/images/works/servicos-2.png'
 
 const Posts = () => (
   <Layout title="Posts">
