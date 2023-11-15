@@ -34,6 +34,12 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>WordPress, Elementor, JavaScript ,HTML, CSS</span>
         </ListItem>
+        <ListItem>
+          <Meta>Repository</Meta>
+          <Link href="https://www.behance.net/gallery/179251397/Landing-Page-for-a-Dental-Clinic">
+          https://www.behance.net/gallery/179251397/Landing-Page-for-a-Dental-Clinic <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/bressan-index.png" alt="Bressan Odontologia" />
