@@ -64,7 +64,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
           <Section>
-            <WorkGridItem id="blog" title="My Blog" thumbnail={thumbBlog}>
+            <WorkGridItem id="blog" title="Meu Blog" thumbnail={thumbBlog}>
                Lugar onde eu mostro meus códigos, mostrando as experiências tive durante o processo de programação.
             </WorkGridItem>
           </Section>
