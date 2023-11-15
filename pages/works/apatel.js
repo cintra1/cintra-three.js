@@ -11,19 +11,19 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Bressan Odontologia">
+  <Layout title="Apatel">
     <Container>
       <Title>
-        Bressan Odontologia <Badge>2023-</Badge>
+        Apatel <Badge>2023-</Badge>
       </Title>
       <P>
-      Uma landing page para um consultório odontológico.
+      Uma landing page para uma empresa que vende equipamentos de segurança.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://bressanodontologia.com.br/">
-          https://bressanodontologia.com.br/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://apatel.com.br/">
+          https://apatel.com.br/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -32,15 +32,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>WordPress, Elementor, JavaScript ,HTML, CSS</span>
+          <span>WordPress, Elementor, WooCommerce, JavaScript ,HTML, CSS</span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/bressan-index.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-2.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-3.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-5.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-4.png" alt="Bressan Odontologia" />
+      <WorkImage src="/images/works/apatel-pag.png" alt="Apatel" />
     </Container>
   </Layout>
 )
