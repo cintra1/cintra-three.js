@@ -24,13 +24,13 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
          <Section>
             <WorkGridItem id="site" title="Criação de Website" thumbnail={thumbPortfolio4}>
-              Está precisando de um site completo, totalmente responsivo e do jeito que você sempre quis? Clique aqui!
+              
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="hospedagem" title="Hospedagem de Website" thumbnail={thumbPortfolio5}>
-              Está precisando hospedar seu site mas não entende de hosting? Clique aqui!
+             
             </WorkGridItem>
           </Section>
 
