@@ -99,28 +99,7 @@ const Home = () => {
         </Section>
 
 
-      <Section delay={0.2}>
-          <Heading as="h3" variant="section-title">
-            Contato
-          </Heading>
-          <Paragraph>
-            Quer conversar um pouco sobre seu projeto e esclarecer suas dúvidas sobre meus serviços? Vamos marcar uma chamada ou
-            conversar por mensagem se você preferir para que possamos concluir com sucesso a criação de seu site ou design.
-          </Paragraph>
-          </Section>
-          <Section>
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="blue"
-          >
-            Whatsapp
-          </Button>
-        </Box>
-        </Section>
+
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
@@ -149,6 +128,29 @@ const Home = () => {
             <Paragraph>
               Música, Ler, Andar de Skate, Esportes (Futebol, Voleibol, Ping Pong, Basquete).
             </Paragraph>
+        </Section>
+
+                <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Contato
+          </Heading>
+          <Paragraph>
+            Quer conversar um pouco sobre seu projeto e esclarecer suas dúvidas sobre meus serviços? Vamos marcar uma chamada ou
+            conversar por mensagem se você preferir para que possamos concluir com sucesso a criação de seu site ou design.
+          </Paragraph>
+          </Section>
+          <Section>
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="blue"
+          >
+            Whatsapp
+          </Button>
+        </Box>
         </Section>
 
         
