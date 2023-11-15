@@ -129,12 +129,7 @@ const Navbar = props => {
                 >
                   Contato
                 </MenuItem>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/cintra1/cintra-three.js"
-                >
-                  Source
-                </MenuItem>
+              
               </MenuList>
             </Menu>
           </Box>
