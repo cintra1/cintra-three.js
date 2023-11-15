@@ -11,6 +11,7 @@ import thumbPortfolio5 from '../public/images/works/servicos-2.png'
 import thumbPortfolio6 from '../public/images/works/servicos-3.png'
 import thumbPortfolio7 from '../public/images/works/servicos-4.png'
 import thumbPortfolio8 from '../public/images/works/servicos-5.png'
+import thumbPortfolio9 from '../public/images/works/servicos-6.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -41,8 +42,8 @@ const Posts = () => (
             href="https://mobile.twitter.com/1harunai"
           />
             <GridItem
-            title="Ghost Copy"
-            thumbnail={thumbPortfolio6}
+            title="Criação de Atalhos Personalizados"
+            thumbnail={thumbPortfolio9}
             href="https://www.instagram.com/harunaijpg/"
           />
            
