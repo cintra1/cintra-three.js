@@ -34,6 +34,12 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>WordPress, Elementor, WooCommerce, JavaScript ,HTML, CSS</span>
         </ListItem>
+             <ListItem>
+          <Meta>Repository</Meta>
+          <Link href="https://www.behance.net/gallery/177328609/Safety-Equipment-Quote-Website-Apatel">
+          https://www.behance.net/gallery/177328609/Safety-Equipment-Quote-Website-Apatel <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/apatel-pag.png" alt="Apatel" />
