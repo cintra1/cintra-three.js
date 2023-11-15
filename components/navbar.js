@@ -79,6 +79,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Portfolio
           </LinkItem>
+           <LinkItem href="/services" path={path}>
+            Serviços
+          </LinkItem>
            <LinkItem href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20" path={path}>
             Contato
           </LinkItem> 
@@ -109,14 +112,14 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
-                  About
+                  Portfolio
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
-                  Works
+                <MenuItem as={MenuLink} href="/services">
+                  Serviços
                 </MenuItem>
-                 <MenuItem as={MenuLink} href="/posts">
-                  NFTs
-                </MenuItem> 
+                <LinkItem href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20" path={path}>
+            Contato
+          </LinkItem> 
              
              
                 <MenuItem
