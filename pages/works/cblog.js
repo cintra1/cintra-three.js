@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="Cintra Comunicação's Blog">
     <Container>
       <Title>
-        Blog Cintra Comunicação <Badge>2022-</Badge>
+        Blog da Cintra Comunicação <Badge>2022-</Badge>
       </Title>
       <P>
        Um blog para conhecer os serviços da empresa e as principais notícias sobre marketing digital.
