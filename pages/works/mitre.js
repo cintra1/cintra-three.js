@@ -36,8 +36,8 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Repository</Meta>
-          <Link href="https://github.com/cintra1/airt">
-          https://github.com/cintra1/airt <ExternalLinkIcon mx="2px" />
+          <Link href="">
+          <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
