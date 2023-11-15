@@ -11,19 +11,18 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Bressan Odontologia">
+  <Layout title="FlyFrare">
     <Container>
       <Title>
-        Bressan Odontologia <Badge>2023-</Badge>
+        FlyFrare <Badge>2023-</Badge>
       </Title>
       <P>
-      Uma landing page para um consultório odontológico.
+      Website para venda de aeronaves (Helicópteros e Aviões), e de serviços especializados.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://bressanodontologia.com.br/">
-          https://bressanodontologia.com.br/ <ExternalLinkIcon mx="2px" />
+          <Link href="Em processo de hospedagem.">
           </Link>
         </ListItem>
         <ListItem>
@@ -34,13 +33,16 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>WordPress, Elementor, JavaScript ,HTML, CSS</span>
         </ListItem>
+   <ListItem>
+          <Meta>Repository</Meta>
+          <Link href="https://www.behance.net/gallery/177328471/Web-Design-for-Airplane-and-Helicopter-Sales-Website">
+          https://www.behance.net/gallery/177328471/Web-Design-for-Airplane-and-Helicopter-Sales-Website <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
-      <WorkImage src="/images/works/bressan-index.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-2.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-3.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-5.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-4.png" alt="Bressan Odontologia" />
+      <WorkImage src="/images/works/flyfrare-pag.png" alt="FlyFrare" />
+
     </Container>
   </Layout>
 )
