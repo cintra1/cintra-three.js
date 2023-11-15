@@ -14,11 +14,10 @@ const Work = () => (
   <Layout title="Cintra Comunicação's Blog">
     <Container>
       <Title>
-        Cintra Comunicação&apos;s Blog <Badge>2022-</Badge>
+        Blog Cintra Comunicação <Badge>2022-</Badge>
       </Title>
       <P>
-        A blog to find out about the company&apos;s services and the main news and
-        information about digital marketing.
+       Um blog para conhecer os serviços da empresa e as principais notícias sobre marketing digital.
       </P>
       <List ml={4} my={4}>
         <ListItem>
