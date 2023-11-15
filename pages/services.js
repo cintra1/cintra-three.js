@@ -19,12 +19,12 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="Harunai Surface - OpenSea"
-            thumbnail={thumbPortfolio}
+            thumbnail={thumbPortfolio4}
             href="https://opensea.io/collection/harunai-surface"
           />
            <GridItem
             title="Harunai Surface - MidJourney"
-            thumbnail={thumbPortfolio3}
+            thumbnail={thumbPortfolio5}
             href="https://midjourney.com/home/?callbackUrl=%2Fapp%2F"
           />
             <GridItem
