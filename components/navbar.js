@@ -86,20 +86,10 @@ const Navbar = props => {
            <LinkItem href="/services" path={path}>
             Serviços
           </LinkItem>
-         
-          <LinkItem
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-           
+          <LinkItem href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20" path={path}>
             Contato
-            <IoPaperPlaneOutline />
           </LinkItem>
+    
         </Stack>
 
         <Box flex={1} align="right">
