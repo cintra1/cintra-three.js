@@ -17,6 +17,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { IoLogoGithub } from 'react-icons/io5'
+import { IoPaperPlaneOutline } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -85,21 +86,18 @@ const Navbar = props => {
            <LinkItem href="/services" path={path}>
             Serviços
           </LinkItem>
-           <LinkItem href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20" path={path}>
-            Contato
-          </LinkItem> 
          
           <LinkItem
             target="_blank"
-            href="https://github.com/cintra1/cintra-three.js"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
-            Source
+            <IoPaperPlaneOutline />
+            Contato
           </LinkItem>
         </Stack>
 
