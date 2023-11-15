@@ -78,25 +78,26 @@ const Home = () => {
           </Box>
         </Section>
 
-
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Serviços
           </Heading>
-          <BioSection>
-            <BioYear>2005</BioYear>
-            Nascido em São Paulo, Brasil.
-          </BioSection>
-          <BioSection>
-            <BioYear>2022</BioYear>
-            Concluiu o Ensino Médio como Técnico em Desenvolvimento de Sistemas na Escola Técnica Estadual de São Paulo (ETESP).
-          </BioSection>
-          <BioSection>
-            <BioYear>2023</BioYear>
-            Ingressou no curso de Sistemas de Informação na Universidade de São Paulo
-            Paulo (USP).
-          </BioSection>
+          <Paragraph>
+            Está precisando de um site para sua empresa? Ou de Artes para engajar as Redes Sociais da sua empresa? Veja nossa página de serviços
+            e escolha o que melhor te atende, com certeza seu projeto será concluído com sucesso.
+          </Paragraph>
+          </Section>
+          <Section>
+         <Box align="center" my={4}>
+            <NextLink href="/services">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
+                {' '}
+                Meus Serviços{' '}
+              </Button>
+            </NextLink>
+          </Box>
         </Section>
+
 
       <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
@@ -119,6 +120,25 @@ const Home = () => {
             Whatsapp
           </Button>
         </Box>
+        </Section>
+
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Bio
+          </Heading>
+          <BioSection>
+            <BioYear>2005</BioYear>
+            Nascido em São Paulo, Brasil.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Concluiu o Ensino Médio como Técnico em Desenvolvimento de Sistemas na Escola Técnica Estadual de São Paulo (ETESP).
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Ingressou no curso de Sistemas de Informação na Universidade de São Paulo
+            Paulo (USP).
+          </BioSection>
         </Section>
 
 
