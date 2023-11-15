@@ -17,8 +17,7 @@ const Work = () => (
         My Blog <Badge>2022-</Badge>
       </Title>
       <P>
-        Place where I write the day-to-day coding, showing experiences I had
-        before, after and during the programming process.
+        Lugar onde eu mostro meus códigos, mostrando as experiências tive durante o processo de programação.
       </P>
       <List ml={4} my={4}>
         <ListItem>
