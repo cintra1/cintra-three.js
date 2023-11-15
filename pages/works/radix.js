@@ -41,6 +41,12 @@ const Work = () => (
           How I developed the radix <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
+          <ListItem>
+          <Meta>Repository</Meta>
+          <Link href="https://www.behance.net/gallery/174047073/Website-for-a-Organic-Delivery-Aplication-Radix">
+          https://www.behance.net/gallery/174047073/Website-for-a-Organic-Delivery-Aplication-Radix <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/radix-eyecatch.png" alt="Radix" />
