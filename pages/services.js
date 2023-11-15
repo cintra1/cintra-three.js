@@ -10,6 +10,7 @@ import thumbPortfolio4 from '../public/images/works/servicos-1.png'
 import thumbPortfolio5 from '../public/images/works/servicos-2.png'
 import thumbPortfolio6 from '../public/images/works/servicos-3.png'
 import thumbPortfolio7 from '../public/images/works/servicos-4.png'
+import thumbPortfolio8 from '../public/images/works/servicos-5.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -32,6 +33,11 @@ const Posts = () => (
             <GridItem
             title="Design para Rede Sociais"
             thumbnail={thumbPortfolio7}
+            href="https://mobile.twitter.com/1harunai"
+          />
+            <GridItem
+            title="Criação de Artes, Banners e Flyers"
+            thumbnail={thumbPortfolio8}
             href="https://mobile.twitter.com/1harunai"
           />
             <GridItem
