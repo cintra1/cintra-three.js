@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="My Blog">
     <Container>
       <Title>
-        My Blog <Badge>2022-</Badge>
+        Meu Blog <Badge>2022-</Badge>
       </Title>
       <P>
         Lugar onde eu mostro meus códigos, mostrando as experiências tive durante o processo de programação.
