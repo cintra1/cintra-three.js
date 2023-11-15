@@ -15,7 +15,7 @@ const Work = () => (
         AgroExpress <Badge>2022-</Badge>
       </Title>
       <P>
-      An organic product sales app with fast delivery.
+      Um aplicativo de vendas de produtos saudáveis.
       </P>
       <List ml={4} my={4}>
         <ListItem>
