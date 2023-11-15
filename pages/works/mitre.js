@@ -42,11 +42,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/mitre-index.png" alt="Essência Brasileira - Mitre" />
-      <WorkImage src="/images/works/mitre-2.png" alt="Essência Brasileira - Mitre" />
-      <WorkImage src="/images/works/mitre-3.png" alt="Essência Brasileira - Mitre" />
-      <WorkImage src="/images/works/mitre-41.png" alt="Essência Brasileira - Mitre" />
-      <WorkImage src="/images/works/mitre-6.png" alt="Essência Brasileira - Mitre" />
+      <WorkImage src="/images/works/mitre-pag.png" alt="Essência Brasileira - Mitre" />
     </Container>
   </Layout>
 )
