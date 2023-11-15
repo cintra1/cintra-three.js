@@ -11,19 +11,19 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Bressan Odontologia">
+  <Layout title="Cintra Sales + Gear SEO">
     <Container>
       <Title>
-        Bressan Odontologia <Badge>2023-</Badge>
+        Cintra Sales + Gear SEO <Badge>2023-</Badge>
       </Title>
       <P>
-      Uma landing page para um consultório odontológico.
+      Landing Page para divulgação de serviços de SEO.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://bressanodontologia.com.br/">
-          https://bressanodontologia.com.br/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.cintracomunicacao.com.br/gear">
+          https://www.cintracomunicacao.com.br/gear <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -36,11 +36,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/bressan-index.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-2.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-3.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-5.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-4.png" alt="Bressan Odontologia" />
+      <WorkImage src="/images/works/gearcintra-pag.png" alt="Cintra Sales + Gear SEO" />
+    
     </Container>
   </Layout>
 )
