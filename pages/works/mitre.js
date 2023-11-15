@@ -11,19 +11,19 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Bressan Odontologia">
+  <Layout title="Essência Brasileira - Mitre">
     <Container>
       <Title>
-        Bressan Odontologia <Badge>2023-</Badge>
+        Essência Brasileira - Mitre <Badge>2023-</Badge>
       </Title>
       <P>
-      Uma landing page para um consultório odontológico.
+      Uma landing page para venda do empreendimento Essência Brasileira.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://bressanodontologia.com.br/">
-          https://bressanodontologia.com.br/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://essenciabrasileira-mitre.com.br/">
+          https://essenciabrasileira-mitre.com.br/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -34,13 +34,19 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>WordPress, Elementor, JavaScript ,HTML, CSS</span>
         </ListItem>
+        <ListItem>
+          <Meta>Repository</Meta>
+          <Link href="https://github.com/cintra1/airt">
+          https://github.com/cintra1/airt <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
-      <WorkImage src="/images/works/bressan-index.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-2.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-3.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-5.png" alt="Bressan Odontologia" />
-      <WorkImage src="/images/works/bressan-4.png" alt="Bressan Odontologia" />
+      <WorkImage src="/images/works/mitre-index.png" alt="Essência Brasileira - Mitre" />
+      <WorkImage src="/images/works/mitre-2.png" alt="Essência Brasileira - Mitre" />
+      <WorkImage src="/images/works/mitre-3.png" alt="Essência Brasileira - Mitre" />
+      <WorkImage src="/images/works/mitre-41.png" alt="Essência Brasileira - Mitre" />
+      <WorkImage src="/images/works/mitre-6.png" alt="Essência Brasileira - Mitre" />
     </Container>
   </Layout>
 )
