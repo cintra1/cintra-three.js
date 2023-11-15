@@ -17,8 +17,7 @@ const Work = () => (
         Radix <Badge>2022-</Badge>
       </Title>
       <P>
-        Application for delivery of organic products, with direct customer
-        contact with the producer and fast and optimized delivery.
+        Aplicação de delivery para produtos orgânicos, com contato direto entre cliente e produtor.
       </P>
       <List ml={4} my={4}>
         <ListItem>
