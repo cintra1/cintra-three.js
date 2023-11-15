@@ -25,27 +25,27 @@ const Posts = () => (
           <GridItem
             title="Criação de Website"
             thumbnail={thumbPortfolio4}
-            href="https://opensea.io/collection/harunai-surface"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Estou%20interessado%20no%20seu%20servi%C3%A7o%20de:%20Cria%C3%A7%C3%A3o%20de%20Website."
           />
            <GridItem
             title="Hospedagem de Website"
             thumbnail={thumbPortfolio5}
-            href="https://midjourney.com/home/?callbackUrl=%2Fapp%2F"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Estou%20interessado%20no%20seu%20servi%C3%A7o%20de:%20Hospedagem%20de%20Website."
           />  
             <GridItem
             title="Design para Rede Sociais"
             thumbnail={thumbPortfolio7}
-            href="https://mobile.twitter.com/1harunai"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Estou%20interessado%20no%20seu%20servi%C3%A7o%20de:%20Design%20para%20Redes%20Sociais."
           />
             <GridItem
             title="Criação de Artes, Banners e Flyers"
             thumbnail={thumbPortfolio8}
-            href="https://mobile.twitter.com/1harunai"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Estou%20interessado%20no%20seu%20servi%C3%A7o%20de:%20Cria%C3%A7%C3%A3o%20de%20Artes,%20Banners%20e%20Flyers."
           />
             <GridItem
             title="Criação de Atalhos Personalizados"
             thumbnail={thumbPortfolio9}
-            href="https://www.instagram.com/harunaijpg/"
+            href="https://api.whatsapp.com/send?phone=5511977501867&text=Estou%20interessado%20no%20seu%20servi%C3%A7o%20de:%20Cria%C3%A7%C3%A3o%20de%20Atalhos%20Personalizados"
           />
          
         </SimpleGrid>
