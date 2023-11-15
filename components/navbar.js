@@ -88,7 +88,7 @@ const Navbar = props => {
          
           <LinkItem
             target="_blank"
-            href="https://github.com/cintra1/cintra-portfolio"
+            href="https://github.com/cintra1/cintra-three.js"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -117,16 +117,17 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/services">
                   Serviços
                 </MenuItem>
-                <LinkItem href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20" path={path}>
-            Contato
-          </LinkItem> 
-             
-             
+              <MenuItem
+                  as={Link}
+                  href="https://api.whatsapp.com/send?phone=5511977501867&text=Ol%C3%A1,%20tenho%20interesse%20em%20"
+                >
+                  Contato
+                </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/cintra1/"
+                  href="https://github.com/cintra1/cintra-three.js"
                 >
-                  View Source
+                  Source
                 </MenuItem>
               </MenuList>
             </Menu>
